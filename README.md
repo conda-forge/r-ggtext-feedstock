@@ -5,11 +5,9 @@ Home: https://wilkelab.org/ggtext
 
 Package license: GPL-2.0-only
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggtext-feedstock/blob/master/LICENSE.txt)
 
 Summary: A 'ggplot2' extension that enables the rendering of complex formatted plot labels (titles, subtitles, facet labels, axis labels, etc.). Text boxes with automatic word wrap are also supported.
-
-
 
 Current build status
 ====================
