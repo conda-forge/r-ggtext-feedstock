@@ -1,4 +1,4 @@
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggtext_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggtext/ggtext_{{ version }}.tar.gz
-  sha256: 4b281497fbefa2ae65e8dc22b8f498e9f409b06d264fe69daf6723ed196d2958
+  sha256: 8782171c44e5850e0c3a3c540e8db19b18b9b6e61b5ba5314dd7931d77cf7983
 
 build:
   merge_build_host: true  # [win]
